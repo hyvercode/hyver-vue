@@ -39,6 +39,6 @@
     "vue-template-compiler": "^2.6.14"
   },
   "publishConfig": {
-    "@hyver-code:registry": "https://npm.pkg.github.com"
+    "@hyvercode:registry": "https://npm.pkg.github.com"
   }
 }
