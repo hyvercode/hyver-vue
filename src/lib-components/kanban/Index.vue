@@ -36,11 +36,9 @@
 <script>
 import draggable from "vuedraggable";
 import TaskCard from "./Task";
-import router from "@/router";
-import Pages from "@/helpers/ETicket";
 
 export default {
-  name: "App",
+  name: "HyverKanban",
   components: {
     TaskCard,
     draggable
@@ -97,7 +95,7 @@ export default {
     /**
      * On Dragable
      */
-    onDragAble(evt) {
+    onDragAble() {
       this.$emit("onDragAble", this.draggingRows)
     },
 

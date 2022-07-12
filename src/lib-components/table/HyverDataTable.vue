@@ -434,6 +434,7 @@ import draggable from 'vuedraggable'
 import avatar from 'vue-avatar'
 
 export default {
+  name:"HyverDataTable",
   components: {
     draggable,
     avatar

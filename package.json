@@ -33,5 +33,9 @@
   },
   "publishConfig": {
     "@hyvercode:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ]
 }
